@@ -18,3 +18,8 @@ module "iam" {
   source = "./iam"
   project_id = var.project_id
 }
+
+module "network" {
+  source     = "./network"
+  region = var.region
+}
