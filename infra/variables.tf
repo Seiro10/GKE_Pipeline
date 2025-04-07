@@ -9,3 +9,11 @@ variable "region" {
   description = "Région de déploiement"
   type        = string
 }
+
+variable "vpc_name" {
+  type = string
+}
+
+variable "private_subnet_name" {
+  type = string
+}
